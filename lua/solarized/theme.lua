@@ -380,6 +380,10 @@ theme.loadPlugins = function()
         TelescopeMatching =                     { fg = solarized.cyan },
         TelescopeNormal =                       { fg = solarized.fg, bg = solarized.float },
 
+        -- Oil
+        FloatBorder =                           {fg = solarized.yellow, bg = solarized.bg },
+        FloatTitle =                            {fg = solarized.cyan, bg = solarized.bg },
+
         -- NvimTree
         NvimTreeRootFolder =                    { fg = solarized.blue, style = "bold" },
         NvimTreeGitDirty =                      { fg = solarized.purple },
