@@ -393,15 +393,16 @@ theme.loadPlugins = function()
         NvimTreeSpecialFile =                   { fg = solarized.yellow , style = "underline" },
         NvimTreeFolderName=                     { fg = solarized.paleblue },
         NvimTreeEmptyFolderName=                { fg = solarized.disabled },
-        NvimTreeFolderIcon=                     { fg = solarized.accent },
+        NvimTreeFolderIcon=                     { fg = solarized.blue },
         NvimTreeIndentMarker =                  { fg  = solarized.disabled },
+        NVimTreeCursorLine =                    { fg = solarized.none, bg = solarized.bg_dark },
         LspDiagnosticsError =                   { fg = solarized.error },
         LspDiagnosticsWarning =                 { fg = solarized.purple },
         LspDiagnosticsInformation =             { fg = solarized.paleblue },
         LspDiagnosticsHint =                    { fg = solarized.yellow },
 
         -- WhichKey
-        WhichKey =                              { fg = solarized.accent , style = 'bold'},
+        WhichKey =                              { fg = solarized.cyan , style = 'bold'},
         WhichKeyGroup =                         { fg = solarized.text },
         WhichKeyDesc =                          { fg = solarized.blue, style = 'italic' },
         WhichKeySeperator =                     { fg = solarized.fg },
@@ -442,7 +443,7 @@ theme.loadPlugins = function()
         -- Indent Blankline
         IndentBlanklineChar =                   { fg = solarized.highlight },
         IndentBlanklineContextChar =            { fg = solarized.disabled },
-	
+
 	 -- Nvim dap
          DapBreakpoint =                         { fg = solarized.red },
          DapStopped =                            { fg = solarized.green },
